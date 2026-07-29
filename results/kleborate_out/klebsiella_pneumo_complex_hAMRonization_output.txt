@@ -1,0 +1,29 @@
+Input_file_name	Gene_symbol	Mutation	Genetic_variation_type	Drug_class	Input_sequence_ID	Input_gene_length	Input_gene_start	Input_gene_stop	Reference_gene_length	Reference_gene_start	Reference_gene_stop	Sequence_identity	Coverage	Reference_accession	Strand_orientation	Software_name	Software_version	Reference_database_name	Reference_database_version	Input_protein_length	Reference_protein_length	Input_protein_start	Input_protein_stop	Antimicrobial_agent	Coverage_depth	Coverage_ratio	Predicted_phenotype	predicted_phenotype_confidence_level	Reference_protein_start	Reference_protein_stop	Resistance_mechanism
+assembly	aph(4)-Ia	-	Gene presence detected	aminoglycoside antibiotic	contig_7	41154	34614	35640	1026	0	1026	100.00%	100.00%	ARO:0000016	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	aph3-Ia.v1	-	Gene presence detected	aminoglycoside antibiotic	contig_8	214836	112023	112839	816	0	816	99.88%	100.00%	ARO:0000016	-	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	aadA	-	Gene presence detected	aminoglycoside antibiotic	contig_7	41154	27454	28246	792	0	792	99.75%	100.00%	ARO:0000016	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	aadA2	-	Gene presence detected	aminoglycoside antibiotic	contig_7	41154	25061	25841	780	0	780	100.00%	100.00%	ARO:0000016	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	aac(3)-IV	-	Gene presence detected	aminoglycoside antibiotic	contig_7	41154	33609	34386	777	0	777	100.00%	100.00%	ARO:0000016	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	aadA2	-	Gene presence detected	aminoglycoside antibiotic	contig_7	41154	25061	25841	780	0	780	100.00%	100.00%	ARO:0000016	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	aadA	-	Gene presence detected	aminoglycoside antibiotic	contig_7	41154	27454	28246	792	0	792	99.75%	100.00%	ARO:0000016	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	aac(6)-Ib.v1	-	Gene presence detected	aminoglycoside antibiotic	contig_9	79498	67079	67685	606	0	606	100.00%	100.00%	ARO:0000016	-	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	Mrx	-	Gene presence detected	Macrolide antibiotic	contig_8	214836	114717	115956	1239	0	1239	100.00%	100.00%	ARO:0000000	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	mphA	-	Gene presence detected	Macrolide antibiotic	contig_8	214836	113815	114721	906	0	906	100.00%	100.00%	ARO:0000000	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	cmlA1	-	Gene presence detected	phenicol antibiotic	contig_7	41154	26102	27362	1260	0	1260	99.92%	100.00%	ARO:3000387	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	catA1	-	Gene presence detected	phenicol antibiotic	contig_8	214836	131736	132396	660	0	660	99.85%	100.00%	ARO:3000387	-	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	sul1	-	Gene presence detected	sulfonamide antibiotic	contig_8	214836	121358	122198	840	0	840	100.00%	100.00%	ARO:3000282	-	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	sul3	-	Gene presence detected	sulfonamide antibiotic	contig_7	41154	29927	30719	792	0	792	100.00%	100.00%	ARO:3000282	-	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	dfrA12	-	Gene presence detected	Diaminopyrimidine antibiotic	contig_8	214836	123901	124399	498	0	498	100.00%	100.00%	ARO:3000171	-	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	OXA-9.v1	-	Gene presence detected	penicillin beta-lactam	contig_9	79498	65337	66177	840	0	840	100.00%	100.00%	ARO:3000008	-	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	SHV-12	-	Gene presence detected	third-generation cephalosporin	contig_4	125021	121965	122826	861	0	861	100.00%	100.00%	ARO:3009107	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	KPC-3	-	Gene presence detected	carbapenem	contig_9	79498	76688	77570	882	0	882	100.00%	100.00%	ARO:0000020	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	SHV-11	-	Gene presence detected	penicillin beta-lactam	contig_3	5306069	4148680	4149541	861	0	861	100.00%	100.00%	ARO:3000008	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	SHV	p.Leu35Gln	Protein variant detected	penicillin beta-lactam	contig_3	5306069	4148680	4149541	861	0	861	100.00%	100.00%	ARO:3000008	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	SHV	p.Leu35Gln	Protein variant detected	penicillin beta-lactam	contig_3	5306069	4148680	4149541	861	0	861	100.00%	100.00%	ARO:3000008	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	SHV	p.Gly238Ser	Protein variant detected	penicillin beta-lactam	contig_4	125021	121965	122826	861	0	861	100.00%	100.00%	ARO:3000008	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	SHV	p.Glu240Lys	Protein variant detected	penicillin beta-lactam	contig_4	125021	121965	122826	861	0	861	100.00%	100.00%	ARO:3000008	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	OmpK35	p.Glu42fs	Inactivating mutation detected	-	contig_3	5306069	4786416	4787497	1080	0	1080	99.91%	24.51%	-	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	OmpK36	p.Val59fs	Inactivating mutation detected	-	contig_3	5306069	3013939	3015045	1104	0	1104	99.82%	16.08%	-	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	GyrA	p.Ser83Ile	Protein variant detected	fluoroquinolone antibiotic	contig_3	5306069	3004194	3004554	360	0	360	99.17%	100.00%	ARO:0000001	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	GyrA	p.Asp87Asn	Protein variant detected	fluoroquinolone antibiotic	contig_3	5306069	3004194	3004554	360	0	360	99.17%	100.00%	ARO:0000001	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-
+assembly	ParC	p.Ser80Ile	Protein variant detected	fluoroquinolone antibiotic	contig_3	5306069	2078839	2079199	360	0	360	99.72%	100.00%	ARO:0000001	+	Kleborate	3.2.4	CARD	3.2.9	-	-	-	-	-	-	-	-	-	-	-	-

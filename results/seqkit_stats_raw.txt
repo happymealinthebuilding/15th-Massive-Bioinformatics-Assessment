@@ -1,0 +1,2 @@
+file                                             format  type  num_seqs      sum_len  min_len  avg_len  max_len   Q1   Q2     Q3  sum_gap     N50  N50_num  Q20(%)  Q30(%)  AvgQual  GC(%)
+/content/drive/MyDrive/unknown_isolate.fastq.gz  FASTQ   DNA    260,294  576,590,333        5  2,215.2  210,485  258  523  1,359        0  15,932    8,021   91.37   84.49    20.25  55.85

@@ -315,11 +315,15 @@ this kind of allele call gets without going to phenotypic testing.*
 
 ## Appendix: raw output files referenced above
 
+*(All paths below are relative to `results/` in this submission — a curated copy of what the
+notebook produced; see `README.md` for what's included and what was deliberately left out.)*
+
 ```
 seqkit_stats_raw.txt / seqkit_stats_filtered.txt   — QC summary tables
 read_qc.png                                        — length/quality distribution plots
 reads_vs_card.paf                                  — quick read-based AMR triage (not used for final calls)
-flye_run.log / flye_asm/assembly_info.txt          — assembly log and per-contig stats
+flye_run.log / assembly_info.txt                   — assembly log and per-contig stats
+assembly.fasta / assembly_graph.gfa                — final assembly sequence and graph
 contig_summary.tsv                                 — assembly + AMR/VF/replicon join (chromosome/plasmid table)
 16S_hits.tsv                                       — species ID (16S BLAST)
 mlst_result.tsv                                    — strain typing (ST258)

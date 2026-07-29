@@ -1,0 +1,11 @@
+contig	subject	pct_id	aln_len	mismatches	gapopen	qstart	qend	sstart	send	evalue	bitscore	qlen	slen	subject_title	pct_cov_of_ref	db
+contig_4	plasmidfinder~~~repB(R1701)_1~~~CP039970~~~	100.0	623	0	0	2598	3220	1	623	0.0	1151	125021	623	plasmidfinder~~~repB(R1701)_1~~~CP039970~~~ repB(R1701)_1__CP039970	100.0	plasmidfinder
+contig_4	plasmidfinder~~~IncFII(Yp)_1_Yersenia~~~CP000670~~~	95.633	229	9	1	114409	114636	1	229	1.91e-100	366	125021	230	plasmidfinder~~~IncFII(Yp)_1_Yersenia~~~CP000670~~~ IncFII(Yp)_1_Yersenia_CP000670	99.56521739130434	plasmidfinder
+contig_4	plasmidfinder~~~IncFII(p14)_1_p14~~~JQ418538~~~	90.196	255	23	2	114381	114633	8	262	6.9799999999999995e-90	331	125021	262	plasmidfinder~~~IncFII(p14)_1_p14~~~JQ418538~~~ IncFII(p14)_1_p14_JQ418538	97.32824427480917	plasmidfinder
+contig_7	plasmidfinder~~~IncR_1~~~DQ449578~~~	100.0	251	0	0	6064	6314	251	1	2.17e-130	464	41154	251	plasmidfinder~~~IncR_1~~~DQ449578~~~ IncR_1__DQ449578	100.0	plasmidfinder
+contig_8	plasmidfinder~~~IncFIB(K)_1_Kpn3~~~JN233704~~~	100.0	560	0	0	34963	35522	560	1	0.0	1035	214836	560	plasmidfinder~~~IncFIB(K)_1_Kpn3~~~JN233704~~~ IncFIB(K)_1_Kpn3_JN233704	100.0	plasmidfinder
+contig_8	plasmidfinder~~~IncFIB(K)(pCAV1099-114)_1~~~CP011596~~~	91.429	560	48	0	34963	35522	560	1	0.0	769	214836	560	plasmidfinder~~~IncFIB(K)(pCAV1099-114)_1~~~CP011596~~~ IncFIB(K)(pCAV1099-114)_1__CP011596	100.0	plasmidfinder
+contig_8	plasmidfinder~~~repB_KLEB_VIR~~~AP006726~~~	91.25	560	49	0	34963	35522	560	1	0.0	763	214836	560	plasmidfinder~~~repB_KLEB_VIR~~~AP006726~~~ repB_KLEB_VIR_AP006726	100.0	plasmidfinder
+contig_8	plasmidfinder~~~IncFII(K)_1~~~CP000648~~~	100.0	148	0	0	180315	180462	148	1	2.05e-72	274	214836	148	plasmidfinder~~~IncFII(K)_1~~~CP000648~~~ IncFII(K)_1__CP000648	100.0	plasmidfinder
+contig_9	plasmidfinder~~~IncI2_1_Delta~~~AP002527~~~	98.418	316	5	0	60824	61139	316	1	6.73e-158	556	79498	316	plasmidfinder~~~IncI2_1_Delta~~~AP002527~~~ IncI2_1_Delta_AP002527	100.0	plasmidfinder
+contig_9	plasmidfinder~~~IncI2_1~~~KP347127~~~	94.753	324	9	5	60824	61139	324	1	4.14e-140	497	79498	324	plasmidfinder~~~IncI2_1~~~KP347127~~~ IncI2_1__KP347127	100.0	plasmidfinder

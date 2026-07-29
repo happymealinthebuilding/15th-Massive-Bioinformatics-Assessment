@@ -3,25 +3,31 @@
 Case analysis for the 15th Generation Long-Term Internship Program (Massive Bioinformatics),
 built around a single input file: `unknown_isolate.fastq.gz` (raw Oxford Nanopore reads).
 
-Done by Azra Tuncay - aazrtncy@gmail.com
-
 **Status: complete, fully confirmed.** *Klebsiella pneumoniae*, sequence type **ST258** (the
 dominant globally-disseminated KPC clone), carrying a plasmid-borne **KPC-3 carbapenemase** plus
 three further resistance plasmids, chromosomal porin-loss mutations, and dual-mechanism
 fluoroquinolone resistance. No hypervirulence markers detected. See `findings.md` for the full
 write-up, including the note to Prof. Kılıç.
 
-## Directory structure
-
+## What's in here
 
 ```
 .
 ├── README.md          <- you are here
-├── findings.md         <- the final report: species, AMR, plasmids, virulence, note to Prof.Kılıç
+├── findings.md         <- the final report: species, AMR, plasmids, virulence, clinician note
+├── results/            <- curated final outputs (see note below)
 └── code/
     ├── unknown_isolate_analysis.ipynb <- pipeline, runs clean top-to-bottom, all bugs fixed
     └── run_pipeline.sh                <- same pipeline as a plain bash script, non-notebook route
 ```
+
+`results/` is a **curated** subset of what the notebook actually produced — the final assembly,
+every summary table `findings.md` cites, the logs, and the species-ID outputs (16S, MLST,
+Kleborate). It's deliberately *not* everything Colab zipped up: I left out Flye's disposable
+intermediate working directories (draft/consensus/polished assemblies at each internal stage,
+alignment BAMs) and the filtered read set, which together were ~460MB of regenerable data with
+no verification value. What's here (~15MB) is enough to check every claim in `findings.md`
+against the actual output without re-running the ~2hr assembly yourself.
 
 ## What broke during the real run, and what's fixed now
 
