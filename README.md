@@ -14,7 +14,8 @@ write-up, including the note to Prof. Kılıç.
 ```
 .
 ├── README.md          <- you are here
-├── findings.md         <- the final report: species, AMR, plasmids, virulence, clinician note
+├── findings.md        <- the final report: species, AMR, plasmids, virulence, clinician note
+├── requirements.txt     
 ├── results/            <- curated final outputs (see note below)
 └── code/
     ├── unknown_isolate_analysis.ipynb <- pipeline, runs clean top-to-bottom, all bugs fixed

@@ -1,0 +1,32 @@
+# Python dependencies only — see README.md for the full toolchain.
+#
+# This file covers what pip actually installs in the notebook/pipeline: the Python
+# libraries used for QC plots and data wrangling, plus Kleborate (a Python package)
+# and Flye (installed via pip from source, since it has no PyPI wheel).
+#
+# It does NOT cover the system binaries this pipeline also depends on — minimap2,
+# samtools, blast+, mash, seqkit, and mlst (plus mlst's own Perl dependencies and
+# the any2fasta helper it shells out to). Those are apt packages / GitHub release
+# binaries / a Perl tool, not pip packages, and can't be captured here no matter
+# how this file is written. See README.md → "How to run it" for the full install
+# recipe, or use the notebook, which handles all of it end to end.
+#
+# Install with:
+#   pip install -r requirements.txt
+
+biopython>=1.81
+pandas>=2.0
+matplotlib>=3.7
+
+# Species/strain typing tool for the Klebsiella pneumoniae species complex.
+# Pinned to the exact version used for the results in findings.md, since Kleborate's
+# AMR/virulence calls depend on its bundled CARD snapshot — a newer version could
+# reasonably produce different gene calls on a borderline hit (same caveat as the
+# CARD/ResFinder/ARG-ANNOT database-currency note in the README).
+kleborate==3.2.4
+
+# Flye has no PyPI wheel — pip can still install it straight from source, but this
+# compiles a small amount of C++ under the hood and needs build-essential/zlib1g-dev
+# on the system first (see README.md). Left here for completeness since pip is doing
+# the installing either way, not because this is a normal PyPI dependency.
+git+https://github.com/fenderglass/Flye.git
